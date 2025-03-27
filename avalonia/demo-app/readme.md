@@ -1,5 +1,5 @@
 
-# Demo for Chrome DevTools Connector
+# Avalonia Demo for Chrome DevTools Connector
 
 You can contact us direction  at [tech@kgen-llc.com](mailto:ttech@kgen-llc.com) for nore information
 or use [https://github.com/kgen-llc/ChromeDevTools.Connectors](https://github.com/kgen-llc/ChromeDevTools.Connectors) to raise issues and/or find extra documentation.
