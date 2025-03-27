@@ -16,7 +16,7 @@ In order to have interesting trace and activity, we are re-using one of the samp
 
 ## Steps
 
-### **Step 1** - install abd run the sample
+### **Step 1** - install and run the sample
 
 Easy, use the dotnet tool - so yes, you must have a configured .net environment.
 
@@ -57,3 +57,11 @@ We recommend you to save your trace and shared it with someone else to be loaded
 
 The intent of this is to demo that you can simply record any trace activities on any computer you have your application running and do some offline analysis and/or on a different computers !
 ![Chrome Tracing](chrome-tracing.png)
+
+### **Step 4** - connect using the inspect button and check for the Avalonia Logs
+
+By using the inspect button, you can see the logs emitted by Avalonia appearing into the inspect window.
+You can use the 3 buttons into the avalonia applicaiton to highlight the different severity messages.
+Feel free to use the filter button to look at what is interesting for you !
+
+![Inspect Log](inspect-log.png)

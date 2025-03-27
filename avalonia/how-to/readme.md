@@ -9,6 +9,8 @@ Please contact us for binar version without temetry or source access at [tech@kg
 <PackageReference Include="kgen.ChromeDevToolsConnector.Avalonia" Version="0.2.0" />
 ```
 
+*Note: At the moment a nightly build from Avalonia is required. you will need to use a ***11.3.\*-\**** version of Avalonia.*
+
 ## Step 2: enable the usage and your custom configuration
 
 1. enable Avalonia Diagnostics via Avalonia.Diagnostics.Diagnostic.IsEnabled switch
