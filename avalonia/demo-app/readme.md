@@ -1,22 +1,22 @@
 
-# Avalonia Demo for Chrome DevTools Connector
+# Avalonia Demo for Chrome Dev Tools Connector
 
-You can contact us direction  at [tech@kgen-llc.com](mailto:ttech@kgen-llc.com) for nore information
+You can contact us direction  at [tech@kgen-llc.com](mailto:tech@kgen-llc.com) for more information
 or use [https://github.com/kgen-llc/ChromeDevTools.Connectors](https://github.com/kgen-llc/ChromeDevTools.Connectors) to raise issues and/or find extra documentation.
 
 ## Introduction
 
-This demo will showcase how to use the Chrome DevTools Connector to trace an AVALONIA application effectively.
-It mainly demos 2 key features:
+This demo will showcase how to use the Chrome Dev Tools Connector to trace an AVALONIA application effectively.
+It mainly demos two key features:
 
-* redirecting display the AVALONIA logging function into the Chrome WebBrowser console.
+* redirecting display the AVALONIA logging function into the Chrome Web Browser console.
 * showing AVALONIA activities and meters in the chrome trace
 
 In order to have interesting trace and activity, we are re-using one of the sample provided by the Avalonia team.
 
 ## Steps
 
-### **Step 1** - install and run the sample
+### **Step One** - install and run the sample
 
 Easy, use the dotnet tool - so yes, you must have a configured .net environment.
 
@@ -30,7 +30,7 @@ And that's it !
 
 There is more information embedded into the application itself
 
-### **Step 2** - configure the target  in the chrome://inspect window (only once)
+### **Step Two** - configure the target  in the chrome://inspect window (only once)
 
 1. Open the chrome://inspect page  
   ![Configure Step](configure-step.png)
@@ -41,7 +41,7 @@ There is more information embedded into the application itself
 3. A new remote target should appears !  
   ![Remote Target](remote-target.png)
 
-### **Step 3** - connect using the trace button then record
+### **Step Three** - connect using the trace button then record
 
 When recording, there is current limitation, you MUST select 'record until full' into the window, the other modes are not implemented yet.
 You can also select which record categories you are interested in:
@@ -58,10 +58,10 @@ We recommend you to save your trace and shared it with someone else to be loaded
 The intent of this is to demo that you can simply record any trace activities on any computer you have your application running and do some offline analysis and/or on a different computers !
 ![Chrome Tracing](chrome-tracing.png)
 
-### **Step 4** - connect using the inspect button and check for the Avalonia Logs
+### **Step Four** - connect using the inspect button and check for the Avalonia Logs
 
 By using the inspect button, you can see the logs emitted by Avalonia appearing into the inspect window.
-You can use the 3 buttons into the avalonia applicaiton to highlight the different severity messages.
+You can use the three buttons into the Avalonia application to highlight the different severity messages.
 Feel free to use the filter button to look at what is interesting for you !
 
 ![Inspect Log](inspect-log.png)

@@ -2,7 +2,7 @@
 
 ***Disclaimer: The versions available on nuget.org are free for usage but contains telemetry enabled by default using [plausible.io](https://plausible.io/about).***
 
-Please contact us for binary version without temetry or source access at [tech@kgen-llc.com](mailto:tech@kgen-llc.com).
+Please contact us for binary version without telemetry or source access at [tech@kgen-llc.com](mailto:tech@kgen-llc.com).
 
 ## Step 1 : reference the nuget package
 
@@ -17,7 +17,7 @@ Please contact us for binary version without temetry or source access at [tech@k
 1. enable Avalonia Diagnostics via Avalonia.Diagnostics.Diagnostic.IsEnabled switch
 2. Call *EnableChromeDevToolsConnector*  with your own configuration
 
-You can configure on which port the chrome connecotr is running, the name to display and the favIconUrl when displayed into the chrome://inspect window
+You can configure on which port the chrome connector is running, the name to display and the favIconUrl when displayed into the chrome://inspect window
 You can also configure which are you would like to monitor. It is recommended to keep it null for the basic uses cases and do the filtering into the chrome UI.
 
 ```csharp
@@ -43,7 +43,7 @@ public sealed class Program
 ```
 
 And that's it !
-This can be easily ntegrated into your application behind a flag to be enabled at startup.
+This can be easily integrated into your application behind a flag to be enabled at startup.
 Even if the Avalonia Switch is having a minimal impact, we recommend you to only enable both switch and the connector when required.
 
 ## Step 3 : Use it
