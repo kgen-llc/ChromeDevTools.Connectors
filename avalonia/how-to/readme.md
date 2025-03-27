@@ -1,7 +1,8 @@
 # How to add Avalonia ChromeDevTools Connector for your application
 
-***Disclaimer: The versions available on nuget.org are free for usage but contains telemetry enabled by default using plausible.io.***
-Please contact us for binar version without temetry or source access at [tech@kgen-llc.com](mailto:tech@kgen-llc.com).
+***Disclaimer: The versions available on nuget.org are free for usage but contains telemetry enabled by default using [plausible.io](https://plausible.io/about).***
+
+Please contact us for binary version without temetry or source access at [tech@kgen-llc.com](mailto:tech@kgen-llc.com).
 
 ## Step 1 : reference the nuget package
 
