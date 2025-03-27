@@ -1,7 +1,7 @@
 ### How to add Avalonia ChromeDevTools Connector for your application
 
-
 #### Step 1 : reference the nuget package
+
 ```xml
 <PackageReference Include="kgen.ChromeDevToolsConnector.Avalonia" Version="0.1.1" />
 ```
@@ -9,7 +9,8 @@
 #### Step 2: enable the usage and your custom configuration
 
 Note: you MUST enable Avalonia.Diagnostics.Diagnostic.IsEnabled Switch
-See ___EnableChromeDevToolsConnector___ call with the different configuration  
+See ___EnableChromeDevToolsConnector___ call with the different configuration
+
 ```csharp
 public sealed class Program
 {
@@ -32,6 +33,6 @@ public sealed class Program
 }
 ```
 
-### Step 3:
-Use it !
+### Step 3 : Use it
 
+See our [Demo app documentation](../demo-app/readme.md)
