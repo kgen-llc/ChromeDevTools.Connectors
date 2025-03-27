@@ -1,10 +1,10 @@
 
-## Demo for Chrome DevTools Connector
+# Demo for Chrome DevTools Connector
 
 You can contact us direction  at [tech@kgen-llc.com](mailto:ttech@kgen-llc.com) for nore information
 or use [https://github.com/kgen-llc/ChromeDevTools.Connectors](https://github.com/kgen-llc/ChromeDevTools.Connectors) to raise issues and/or find extra documentation.
 
-### Introduction
+## Introduction
 
 This demo will showcase how to use the Chrome DevTools Connector to trace an AVALONIA application effectively.
 It mainly demos 2 key features:
@@ -14,9 +14,9 @@ It mainly demos 2 key features:
 
 In order to have interesting trace and activity, we are re-using one of the sample provided by the Avalonia team.
 
-### Steps
+## Steps
 
-#### **Step 1** - install abd run the sample
+### **Step 1** - install abd run the sample
 
 Easy, use the dotnet tool - so yes, you must have a configured .net environment.
 
@@ -30,7 +30,7 @@ And that's it !
 
 There is more information embedded into the application itself
 
-#### **Step 2** - configure the target  in the chrome://inspect window (only once)
+### **Step 2** - configure the target  in the chrome://inspect window (only once)
 
 1. Open the chrome://inspect page  
   ![Configure Step](configure-step.png)
@@ -41,7 +41,15 @@ There is more information embedded into the application itself
 3. A new remote target should appears !  
   ![Remote Target](remote-target.png)
 
-#### **Step 3** - connect using the trace button then record
+### **Step 3** - connect using the trace button then record
+
+When recording, there is current limitation, you MUST select 'record until full' into the window, the other modes are not implemented yet.
+You can also select which record categories you are interested in:
+
+* Counters - will record Avalonia Meters and some basic DotNet Counters
+* Engine - will record Avalonia Activities
+
+![Trace Configuration](trace-configuration.png)
 
 You should be able to see a regular trace with the different events (rendering, layout, etc..) and meters.
 
