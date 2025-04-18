@@ -55,8 +55,11 @@ You should be able to see a regular trace with the different events (rendering, 
 
 We recommend you to save your trace and shared it with someone else to be loaded again in chrome://tracing environment or even in [https://ui.perfetto.dev](https://ui.perfetto.dev/)
 
+
 The intent of this is to demo that you can simply record any trace activities on any computer you have your application running and do some offline analysis and/or on a different computers !
 ![Chrome Tracing](chrome-tracing.png)
+
+_Note: you can simply lot one of the sample, [avalonia-app-example.json](havalonia-app-example.json) directly in [https://ui.perfetto.dev](https://ui.perfetto.dev/)_
 
 ### **Step Four** - connect using the inspect button and check for the Avalonia Logs
 
