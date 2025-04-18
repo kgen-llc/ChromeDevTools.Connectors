@@ -59,7 +59,7 @@ We recommend you to save your trace and shared it with someone else to be loaded
 The intent of this is to demo that you can simply record any trace activities on any computer you have your application running and do some offline analysis and/or on a different computers !
 ![Chrome Tracing](chrome-tracing.png)
 
-_Note: you can simply lot one of the sample, [avalonia-app-example.json](avalonia-app-example.json) directly in [https://ui.perfetto.dev](https://ui.perfetto.dev/)_
+_Note: you can simply lot one of the samples, <https://raw.githubusercontent.com/kgen-llc/ChromeDevTools.Connectors/refs/heads/dev/avalonia/demo-app/avalonia-app-example.json> directly in [https://ui.perfetto.dev](https://ui.perfetto.dev/)_
 
 ### **Step Four** - connect using the inspect button and check for the Avalonia Logs
 
