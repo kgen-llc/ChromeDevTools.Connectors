@@ -7,10 +7,10 @@ Please contact us for binary version without telemetry or source access at [tech
 ## Step 1 : reference the nuget package
 
 ```xml
-<PackageReference Include="kgen.ChromeDevToolsConnector.Avalonia" Version="0.2.0" />
+<PackageReference Include="kgen.ChromeDevToolsConnector.Avalonia" Version="0.3.0" />
 ```
 
-*Note: At the moment a nightly build from Avalonia is required. you will need to use a ***11.3.\*-\**** version of Avalonia.*
+*Note: You will need to use a ***11.3.\*-\**** version of Avalonia.*
 
 ## Step 2: enable the usage and your custom configuration
 
