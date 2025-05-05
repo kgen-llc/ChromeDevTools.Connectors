@@ -3,6 +3,7 @@
 
 You can contact us direction  at [tech@kgen-llc.com](mailto:tech@kgen-llc.com) for more information
 or use [https://github.com/kgen-llc/ChromeDevTools.Connectors](https://github.com/kgen-llc/ChromeDevTools.Connectors) to raise issues and/or find extra documentation.
+Note the application has been tested on desktop, Windows and Mac.
 
 ## Introduction
 
