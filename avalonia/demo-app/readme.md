@@ -3,7 +3,9 @@
 
 You can contact us direction  at [tech@kgen-llc.com](mailto:tech@kgen-llc.com) for more information
 or use [https://github.com/kgen-llc/ChromeDevTools.Connectors](https://github.com/kgen-llc/ChromeDevTools.Connectors) to raise issues and/or find extra documentation.
-Note the application has been tested on desktop, Windows and Mac.
+
+Note the application has been tested on Desktop platform only, Windows, Mac and Linux (Debian).
+It is provided for both .net 8 and .net 9 runtime.
 
 ## Introduction
 
